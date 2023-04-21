@@ -7,10 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-00-Coupling" />
+        <module name="Spring-01-Core-IoC" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Spring-00-Coupling" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
