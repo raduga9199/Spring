@@ -8,7 +8,7 @@ public class CydeoApp {
         ApplicationContext container = new AnnotationConfigApplicationContext(ConfigApp.class);
 
         Java java = container.getBean(Java.class);
-        
+
         java.getTeachingHours();
     }
 }
