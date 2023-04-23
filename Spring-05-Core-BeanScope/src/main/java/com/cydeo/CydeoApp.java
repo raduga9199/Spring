@@ -16,6 +16,7 @@ public class CydeoApp {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
+        /*
         CommentService cs1 = context.getBean(CommentService.class);
         CommentService cs2 = context.getBean(CommentService.class);
 
@@ -23,6 +24,7 @@ public class CydeoApp {
         System.out.println(cs2);
 
         System.out.println(cs1 == cs2);
+         */
 
 
     }
