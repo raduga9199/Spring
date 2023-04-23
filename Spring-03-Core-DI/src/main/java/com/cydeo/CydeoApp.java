@@ -10,5 +10,8 @@ public class CydeoApp {
         Java java = container.getBean(Java.class);
 
         java.getTeachingHours();
+
+
+
     }
 }
