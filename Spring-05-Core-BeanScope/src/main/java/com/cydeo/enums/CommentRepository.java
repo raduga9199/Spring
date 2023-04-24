@@ -1,4 +1,4 @@
-package com.cydeo.repository;
+package com.cydeo.enums;
 
 import com.cydeo.model.Comment;
 
