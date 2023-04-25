@@ -8,20 +8,24 @@
 
 <table>
   <thead>
-  <ul>
-    <li> First Name </li>
-    <li> Last Name </li>
-    <li> Age </li>
-    <li> Gender</li>
-  </ul>
+  <tr>
+    <td> First Name </td>
+    <td> Last Name </td>
+    <td> Age </td>
+    <td> Gender</td>
+  </tr>
   </thead>
+
   <tbody>
-  <ul>
-    <li th:each ="mentor : ${mentors}" th:text="${mentor.firstName}"></li><br>
-    <li th:each ="mentor : ${mentors}" th:text="${mentor.lastName}"></li><br>
-    <li th:each ="mentor : ${mentors}" th:text="${mentor.age}"></li><br>
-    <li th:each ="mentor : ${mentors}" th:text="${mentor.gender.MALE}"></li><br>
-  </ul>
+  <tr>
+    <td th:each ="mentor : ${mentors}" th:text="${mentor.firstName}"></td>
+
+    <td th:each ="mentor : ${mentors}" th:text="${mentor.lastName}"></td>
+
+    <td th:each ="mentor : ${mentors}" th:text="${mentor.age}"></td>
+
+    <td th:each ="mentor : ${mentors}" th:text="${mentor.gender.MALE}"></td>
+  </tr>
 
   </tbody>
 </table>
